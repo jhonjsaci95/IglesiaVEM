@@ -1,4 +1,5 @@
 body {
+    max-width: 100%;
     background-color: #118EBF;
     /* background-image: url('./img/icvemprinci.jpg');*/
     background-size: cover;
@@ -39,6 +40,7 @@ header {
 }
 
 .containerprincipal {
+    max-width: 100%;
     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/mundo.gif');
     background-size: cover;
     top: 0;
@@ -50,6 +52,7 @@ header {
 }
 
 .video {
+    max-width: 100%;
     background-color: transparent;
     width: 600px;
     display: block;
@@ -79,7 +82,6 @@ header {
 
 
 h1 {
-
     font-size: 80px;
     color: #ffffff;
     /* border: dashed rgb(253, 253, 253); */
@@ -341,9 +343,11 @@ section {
 }
 
 .serviciosdescripcion {
+    max-width: 100%;
+    display: flex;
     background-color: #07c7f249;
     text-align: center;
-    width: 80%;
+    width: 100%;
     padding-bottom: 20px;
     margin: 0 auto;
     border-radius: 15px;
@@ -351,6 +355,8 @@ section {
 }
 
 .tittleserviciosdescripcion {
+    display: flex;
+    max-width: 100%;
     color: white;
     margin: 5 auto;
     padding-top: 20px;
