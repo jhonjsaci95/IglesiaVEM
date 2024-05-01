@@ -344,7 +344,12 @@ section {
 
 .serviciosdescripcion {
     max-width: 100%;
-    display: flex;
+    flex-direction: center;
+    /* Establece la dirección vertical */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    text-align: center;
+    /* Centra el texto */
     background-color: #07c7f249;
     text-align: center;
     width: 100%;
@@ -355,6 +360,8 @@ section {
 }
 
 .tittleserviciosdescripcion {
+    flex-direction: column;
+    /* Establece la dirección vertical */
     display: flex;
     max-width: 100%;
     color: white;
