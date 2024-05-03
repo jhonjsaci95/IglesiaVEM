@@ -397,23 +397,9 @@ section {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: #07C7F2;
     margin: 5px;
     transition: transform 0.4s;
-}
-
-.nav-list {
-    display: flex;
-    list-style-type: none;
-}
-
-.nav-list li {
-    margin-right: 20px;
-}
-
-.nav-list li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 /* Estilos para dispositivos móviles */
@@ -444,11 +430,13 @@ section {
         flex-direction: column;
         position: absolute;
         text-align: right;
-        top: 60%;
-        left: 0;
-        width: 100%;
+        margin-top: 336px;
+        right: 0;
+        background-image: linear-gradient(180deg, #0000003d 0%, #0000002c 100%);
+        width: 30%;
         padding: 0px 0px;
         z-index: 1;
+
     }
 
     .nav-list.active li {
