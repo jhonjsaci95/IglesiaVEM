@@ -12,3 +12,6 @@ document.getElementById('mobile-menu').addEventListener('click', function () {
         this.classList.add('active');
     }
 });
+
+
+
