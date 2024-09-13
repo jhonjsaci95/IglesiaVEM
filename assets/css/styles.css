@@ -372,8 +372,9 @@ section {
 
 .youtube {
     max-width: 100%;
-    width: 450px;
+    width: 1000px;
     height: 315px;
+    border-radius: 9px;
 }
 
 /* Prueba de responsive */
@@ -453,7 +454,8 @@ section {
 
 .biografia {
     margin-top: 20px;
-    padding: 2px;
+    padding: 20px;
+
 }
 
 .containerphoto {
@@ -467,23 +469,7 @@ section {
     margin-top: auto;
     margin-left: auto;
 
-
-
 }
-
-.perfil {
-    max-width: 100%;
-    background-color: transparent;
-    width: 180px;
-    display: row;
-    text-align: center;
-    justify-content: center;
-    margin-top: 120px;
-    margin-left: 20px;
-    border-radius: 140px;
-    margin: 10px;
-}
-
 
 .perfilsecction {
     max-width: 100%;
@@ -501,11 +487,23 @@ section {
     margin: auto;
 }
 
-
+.perfil {
+    max-width: 100%;
+    background-color: transparent;
+    width: 180px;
+    display: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 20px;
+    border-radius: 140px;
+    margin: 10px;
+}
 
 .description {
-    width: 80%;
-    margin: 12px;
+    width: 100%;
+    background-color: yellow;
+    margin: 30px;
     /* Centra el contenedor horizontalmente */
 }
 
@@ -519,12 +517,13 @@ section {
 
 .subtitulo {
     margin: 0 0 10px 0;
-    padding: 10px;
+    padding: 20px;
     background-color: #118EBF;
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .textvm {
