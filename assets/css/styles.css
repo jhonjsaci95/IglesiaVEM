@@ -526,12 +526,24 @@ section {
     text-align: center;
 }
 
+.article2 {
+    display: flex;
+}
+
 .textvm {
+    background-color: rgb(221, 26, 26);
+    font-size: 1.2rem;
+    /* Tamaño de texto base */
     text-align: justify;
-    /* Justifica el texto */
-    line-height: 1.2;
-    /* Ajusta el espaciado entre líneas */
-    font-family: 'Arial';
+    align-items: justify;
+    /* Alinea el texto de manera justificada */
+    line-height: 1;
+    /* Espaciado entre líneas para mejorar la lectura */
+    padding: 1rem;
+    margin-top: 10xp;
+    margin-bottom: 10xp;
+
+
 }
 
 .titlevmh {
