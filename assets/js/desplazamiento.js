@@ -2,4 +2,4 @@
 setTimeout(function () {
     var seccion = document.getElementById("seccion1");
     seccion.scrollIntoView({ behavior: 'smooth' });
-}, 3000); // 3000 milisegundos = 3 segundos
+}, 2000); // 3000 milisegundos = 3 segundos

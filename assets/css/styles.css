@@ -603,7 +603,7 @@ section {
     font-family: 'Arial';
 }
 
-.titulon {
+/* .titulon {
 
     font-size: 60px;
     font-weight: bold;
@@ -613,10 +613,10 @@ section {
     margin-top: 100px;
     margin-bottom: 80px;
     /* Espacio superior */
-    animation: resaltar 2s infinite alternate;
-    /* Animación de resaltado */
+/* animation: resaltar 2s infinite alternate; */
+/* Animación de resaltado */
 
-}
+
 
 @keyframes resaltar {
     0% {
