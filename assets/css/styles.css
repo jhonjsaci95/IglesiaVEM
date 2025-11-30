@@ -234,10 +234,12 @@ section {
 }
 
 .footer__copyright {
+
     font-weight: 300;
     margin-top: 10px;
+    margin-bottom: 10px;
     /* font-weight: 300; */
-    font-size: 80%;
+    font-size: 100%;
     --padding-container: 30px 0;
     text-align: center;
     /* align-items: center; */
@@ -354,7 +356,7 @@ section {
 }
 
 .section1 {
-    background-color: rgb(0, 0, 255);
+    /* background-color: rgb(0, 0, 255); */
     /* bottom: 100%;
     left: 100%;
     width: 100%;
@@ -363,12 +365,12 @@ section {
 
 .article1 {
     display: grid;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
 .serviciosdescripcion {
-    background-color: rgb(255, 255, 0);
+    background-color: none;
     max-width: 100%;
     /*  background-color: #07c7f249; */
     text-align: center;
@@ -410,7 +412,7 @@ section {
     /* Asegura que los videos se ajusten al contenedor */
     max-width: 560px;
     /* Define un ancho máximo para los videos */
-    height: 315;
+    height: 500px;
     /* Mantiene la proporción del video */
     display: block;
     /* Evita cualquier desplazamiento inesperado */
